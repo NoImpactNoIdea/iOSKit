@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  UIKit-Template
 //
-//  Created by Cristina Arcodia on 4/19/24.
+//  Created by Charlie Arcodia on 4/19/24.
 //
 
 import UIKit
@@ -29,16 +29,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     func sceneDidDisconnect(_ scene: UIScene) {
     }
-
     func sceneDidBecomeActive(_ scene: UIScene) {
     }
-
     func sceneWillResignActive(_ scene: UIScene) {
     }
-
     func sceneWillEnterForeground(_ scene: UIScene) {
     }
-
     func sceneDidEnterBackground(_ scene: UIScene) {
     }
 }
