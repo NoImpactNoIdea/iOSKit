@@ -24,7 +24,7 @@ To use iOSKit for your project, follow these simple steps:
 2. **Clone Your Repository**
    - Clone the new repository to your local machine:
      ```
-     git clone https://github.com/yourusername/your-repository-name.git
+     git clone https://github.com/NoImpactNoIdea/iOSKit.git
      ```
 
 3. **Open and Run**
