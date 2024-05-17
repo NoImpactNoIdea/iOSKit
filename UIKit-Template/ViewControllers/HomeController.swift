@@ -31,10 +31,10 @@ class HomeController: UIViewController {
     
     func addViews() {
         
-        // child views
+        // Child views
         self.view.addSubview(self.welcomeLabel)
         
-        // constraints
+        // Constraints
         NSLayoutConstraint.activate([
             self.welcomeLabel.centerYAnchor.constraint(equalTo: self.view.centerYAnchor),
             self.welcomeLabel.leadingAnchor.constraint(equalTo: self.view.leadingAnchor, constant: 20),
@@ -42,6 +42,11 @@ class HomeController: UIViewController {
         ])
 
         self.welcomeLabel.sizeToFit()
+    }
+    
+    // Test Example
+    func additionTest(numberOne: Int, numberTwo: Int) -> Int {
+        return numberOne + numberTwo
     }
 }
 
